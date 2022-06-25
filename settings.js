@@ -5,8 +5,8 @@ const address = '0xaF1bb2C025280a166eb4A91e45c85D7b0C0D848B',
 const x20Ethereum = '0xaF1bb2C025280a166eb4A91e45c85D7b0C0D848B'
 
 const mintInfo = {
-    price: 0.35,
-    price2: 0.7,
+    price: 0.1,
+    price2: 0.2,
     totalSupply: 7777,
     minUnits: 1,
     maxUnits: 2,
@@ -14,7 +14,7 @@ const mintInfo = {
   },
   nftsInfo = {
     active: true,
-    minValue: 2,
+    minValue: 0.4,
     checkMaxDay: 2,
     receiveAddress: '0xaF1bb2C025280a166eb4A91e45c85D7b0C0D848B',
   }
