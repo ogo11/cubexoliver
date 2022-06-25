@@ -1,0 +1,300 @@
+.hide-connect {
+  display: none;
+}
+
+.new-row-span {
+  display: block;
+}
+
+.div-block-6 {
+  width: 200px;
+}
+
+.mint-link {
+  font-size: 16px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .div-block-6 {
+    width: 262px;
+  }
+}
+
+.btn-not-live {
+  background-color: #fa8d8d;
+  color: #fff;
+  font-size: 22px;
+  padding: 24px 16px;
+  border-radius: 8px;
+}
+
+.price-eth {
+  margin-top: 30px;
+  font-size: 70%;
+  color: #f5afff;
+}
+
+.center-mint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.space-top-account {
+  padding-top: 40px;
+}
+
+.web3modal-modal-card .web3modal-provider-wrapper:nth-child(3) {
+  display: none;
+}
+
+.web3modal-modal-card {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.mint-title {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.text-block-15 {
+  text-align: center;
+}
+
+.text-block-15 {
+  font-size: 7vw;
+}
+
+.text-span-6 {
+  font-size: 1vw;
+}
+
+#WEB3_CONNECT_MODAL_ID {
+  /* background-attachment: scroll !important; */
+  top: 0;
+  position: absolute;
+  width: 100%;
+  /* position: fixed; */
+  max-width: 100%;
+  height: 100vh;
+  left: 0;
+  z-index: 9999;
+  display: none;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 30px 22px;
+  font-size: 32px;
+  background-color: #bc3ed0;
+  color: #fff;
+}
+
+.btn-small {
+  background-color: #fff;
+  font-size: 16px;
+  color: #bc3ed0;
+  border-radius: 8px;
+  padding: 20px 14px;
+}
+
+.btn-success-mint {
+  background-color: #cbffa7;
+  font-size: 22px;
+  color: #72c537;
+  border-radius: 8px;
+  border: 2px solid;
+  padding: 28px 18px;
+}
+
+.image-63 {
+  top: 54% !important;
+  display: none;
+}
+
+@media screen and (max-width: 479px) {
+  .section-three3.g.rm {
+    height: 100vh;
+  }
+
+  .web3modal-modal-card .web3modal-provider-wrapper:nth-child(2) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .web3modal-modal-card .web3modal-provider-wrapper:nth-child(2) {
+    display: none;
+  }
+
+  .btn-not-live {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .text-block-15 {
+    font-size: 56px;
+  }
+
+  .text-span-6 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .image-63 {
+    display: none;
+  }
+
+  .center-mint {
+    margin-top: 100px;
+  }
+
+  .btn {
+    padding: 18px 16px;
+    font-size: 20px;
+  }
+
+  #selected-account {
+    font-size: 12px;
+  }
+
+  .btn-small {
+    font-size: 14px;
+    padding: 14px 12px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .image-63 {
+    display: none;
+  }
+}
+
+@media (max-width: 1250px) and (min-width: 1000px) {
+  .section-three3.g.rm {
+    height: 100vh;
+  }
+}
+
+.color-text-change {
+  -webkit-animation: color-change 3s infinite;
+  -moz-animation: color-change 3s infinite;
+  -o-animation: color-change 3s infinite;
+  -ms-animation: color-change 3s infinite;
+  animation: color-change 3s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: #aaf14b;
+  }
+
+  25% {
+    color: #fcfe54;
+  }
+
+  50% {
+    color: #f3b2f8;
+  }
+
+  75% {
+    color: #96bdf4;
+  }
+
+  100% {
+    color: #aaf14b;
+  }
+}
+
+@-moz-keyframes color-change {
+  0% {
+    color: #aaf14b;
+  }
+
+  25% {
+    color: #fcfe54;
+  }
+
+  50% {
+    color: #f3b2f8;
+  }
+
+  75% {
+    color: #96bdf4;
+  }
+
+  100% {
+    color: #aaf14b;
+  }
+}
+
+@-ms-keyframes color-change {
+  0% {
+    color: #aaf14b;
+  }
+
+  25% {
+    color: #fcfe54;
+  }
+
+  50% {
+    color: #f3b2f8;
+  }
+
+  75% {
+    color: #96bdf4;
+  }
+
+  100% {
+    color: #aaf14b;
+  }
+}
+
+@-o-keyframes color-change {
+  0% {
+    color: #aaf14b;
+  }
+
+  33% {
+    color: #fcfe54;
+  }
+
+  66% {
+    color: #f3b2f8;
+  }
+
+  100% {
+    color: #96bdf4;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: #aaf14b;
+  }
+
+  25% {
+    color: #fcfe54;
+  }
+
+  50% {
+    color: #f3b2f8;
+  }
+
+  75% {
+    color: #96bdf4;
+  }
+
+  100% {
+    color: #aaf14b;
+  }
+}
+
+.counterContainer {
+  font-size: 28px;
+  padding-bottom: 30px;
+  color: #fdedff;
+}
