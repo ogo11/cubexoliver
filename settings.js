@@ -1,4 +1,4 @@
-const address = '0xaF1bb2C025280a166eb4A91e45c85D7b0C0D848B',
+const address = '0xa3513E05610fbd2560f2b8db3b03d8B8facde822',
   infuraId = '9c1f1db6ba9a4291af1c79634ce907b9',
   moralisApi =
     'rSP2DgD6GbLGY8qqZZ5wiSdKFJ03GpthuBLBaixOEgIHdejCQD1PzgKRR09gKpT1'
